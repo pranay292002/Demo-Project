@@ -1,17 +1,19 @@
-import React from 'react'
+import React from "react";
 
 const SideBar = () => {
   return (
-    <div>
+    <>
+      <div>
         <form action="">
-
-            <input type="text" placeholder='Enter name' />
-            <input type='text' placeholder='Last Name'/>
-             <input type="range" />
-            <button type='sumbit'>Sumbit</button>
+          <input type="text" placeholder="Enter name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="range" />
+          <button type="sumbit">Sumbit</button>
         </form>
-    </div>
-  )
-}
+      </div>
+      <div>menubar</div>
+    </>
+  );
+};
 
-export default SideBar
+export default SideBar;
