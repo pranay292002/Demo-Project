@@ -9,7 +9,7 @@ const SideBar = () => {
             <input type="radio" name="gender" id="" />
             <input type="radio" name="gender" id="" />
             <button type='sumbit'>Sumbit</button>
-
+<h1></h1>
         </form>
     </div>
   )
